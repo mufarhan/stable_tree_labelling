@@ -12,9 +12,6 @@ const size_t MB = 1024 * 1024;
 
 int main(int argc, char** argv)
 {
-#ifdef NDEBUG
-    srand(time(nullptr));
-#endif
 
     // read graph
     fstream fs(argv[1]);
