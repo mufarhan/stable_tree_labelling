@@ -7,7 +7,7 @@
 using namespace std;
 using namespace road_network;
 
-int main()
+int main(int argc, char** argv)
 {
 
     // read index
