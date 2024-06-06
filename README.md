@@ -11,3 +11,6 @@ Additional files are:
 * index.cpp: create an index file
 * query.cpp: load index from a file and evaluate random queries
 * update.cpp: update index to reflect graph changes
+
+# Usage
+
