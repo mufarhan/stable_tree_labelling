@@ -20,6 +20,7 @@ int main(int argc, char** argv)
     g.contract(closest);
 
     // construct index
+    vector<CutIndex> ci;
     g.create_cut_index(ci, 0.2);
     ContractionIndex con_index(ci, closest);
 

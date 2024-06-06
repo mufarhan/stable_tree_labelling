@@ -43,10 +43,16 @@ int main(int argc, char** argv)
 
     util::start_timer();
     if(argv[4][0] == 'd') {
+    	// Label Search Algorithm (Decrease case)
         //g.LabelSearchDec(con_index, updates);
+        
+        // Pareto Search Algorithm (Decrease case)
         g.ParetoSearchDec(con_index, updates);
     } else if(argv[4][0] == 'i') {
+    	// Label Search Algorithm (Increase case)
         //g.LabelSearchInc(con_index, updates);
+        
+        // Pareto Search Algorithm (Increase case)
         g.ParetoSearchInc(con_index, updates);
     }
     double random_update_time = util::stop_timer();
