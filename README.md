@@ -15,15 +15,17 @@ Additional files are:
 # Usage
 
 To Compile the source
-$ make
+
+  $ make
+
 To construct index:
 
-$ ./index graph_file_name index_file_name
+  $ ./index graph_file_name index_file_name
 
 To query index:
 
-$ ./index index_file_name query_file_name
+  $ ./index index_file_name query_file_name
 
 To update index:
 
-$ ./index graph_file_name index_file_name update_file_name update_type(d - for decrease/i - for increase)
+  $ ./index graph_file_name index_file_name update_file_name update_type(d - for decrease/i - for increase)
