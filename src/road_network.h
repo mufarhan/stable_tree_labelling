@@ -11,7 +11,7 @@
 #endif
 
 // use multi-threading for index construction
-#define MULTI_THREAD 32 // determines threshold for multi-threading
+//#define MULTI_THREAD 32 // determines threshold for multi-threading
 #ifdef MULTI_THREAD
     #define MULTI_THREAD_DISTANCES 4 // number of parallel threads for label & shortcut computation
 #endif
