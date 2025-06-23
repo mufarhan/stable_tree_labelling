@@ -34,4 +34,4 @@ To update index:
 
 # References
 
-* Henning Koehler, Muhammad Farhan, and Qing Wang, **[Stable Tree Labelling for Accelerating Distance Queries on Dynamic Road Networks](https://arxiv.org/pdf/2501.17379)**. SIGMOD 2025.
+* Henning Koehler, Muhammad Farhan, and Qing Wang, **[Stable Tree Labelling for Accelerating Distance Queries on Dynamic Road Networks](https://arxiv.org/pdf/2501.17379)**. EDBT 2025.
