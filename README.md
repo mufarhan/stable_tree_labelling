@@ -1,6 +1,6 @@
 # Stable Tree Labelling
 
-A tool to speed up distance queries for dynamic road networks, 
+A tool to speed up distance queries on large and dynamic road networks, 
 It consists of the following main files:
 
 * road_network.h / road_network.cpp: core library
@@ -31,3 +31,7 @@ To update index:
     $ ./update graph_file_name index_file_name update_file_name update_type(d - for decrease/i - for increase)
 
 `Sample/` folder provides a sample road network, a sample file containing query pairs and a sample file containing update pairs
+
+# References
+
+* Henning Koehler, Muhammad Farhan, and Qing Wang, **[Stable Tree Labelling for Accelerating Distance Queries on Dynamic Road Networks](https://arxiv.org/pdf/2501.17379)**. SIGMOD 2025.
